@@ -1,0 +1,46 @@
+
+body {
+    font-family: "Quicksand", sans-serif;
+    background-color: rgb(48, 25, 52);
+    color: rgb(220, 200, 245);
+    font-size: 30px;
+}
+
+.hero {
+    color: rgb(98, 54, 140);
+    background-color: rgb(141, 128, 153);
+    border: 10px, solid, rgb(80, 67, 125);
+    text-align: center;
+
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.tagline {
+    font-style: italic;
+    
+}
+
+h2 {
+    font-size: 40px;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+img {
+    border: 15px, solid, rgb(180, 140, 220);
+    border-style: groove;
+}
+
+#footer {
+    background-color: rgb(199, 123, 212);
+    color: rgb(49, 12, 54);
+    padding: 10px 2px;
+}

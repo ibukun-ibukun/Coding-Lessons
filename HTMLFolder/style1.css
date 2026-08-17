@@ -1,0 +1,23 @@
+
+body{
+    font-family:'Yuyu', sans-serif ;
+    background-color: rgb(33, 33, 67);
+    color:rgb(196, 234, 237)
+    
+}
+
+h1 {
+    color: aquamarine;
+    font-size: 120px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 70px;
+    color: rgb(140, 140, 214);
+}
+
+p {
+    font-size: 45px;
+    
+}

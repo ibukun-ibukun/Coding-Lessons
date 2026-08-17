@@ -1,0 +1,90 @@
+
+* {
+    
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(250, 245, 235);
+    font-family: "Yuyu", sans-serif;
+    font-weight: 200px;
+    font-size: 25px;
+    color: rgb(78, 52, 46);
+    max-width: 800px;
+
+}
+
+header {
+    text-align: center;
+    color: rgb(129, 89, 36);
+    background-color: rgb(184, 150, 92);
+    padding: 20px 0;
+}
+
+header p {
+    font-style: italic;
+}
+
+
+h1 {
+    font-weight: 600px;
+    font-size: 70px;
+}
+
+h2, h3 {
+    padding: 15px;
+}
+
+
+.ibk {
+    margin: 15px 0;
+    border: 3px solid #5D4037
+    
+}
+
+figcaption {
+    padding-bottom: 15px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.card {
+    background-color: #B08D7A;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 15px;
+    border: 2px solid #4B3832;
+    justify-content: space-between;
+}
+
+a {
+    display: block;
+    color: rgb(202, 169, 125);
+    text-decoration: none;
+}
+
+.footer {
+    background-color: rgb(88, 58, 39);
+    color: whitesmoke;
+    margin: 10px 2px;
+    padding: 15px;
+}
+span {
+    color: rgb(32, 23, 10);
+    font-weight: bold;
+}
+
+
+
+
+
+
+

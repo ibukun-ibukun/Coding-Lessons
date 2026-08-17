@@ -1,0 +1,24 @@
+
+/* Cascading Style Sheet */ 
+
+body {
+    font-family:'Playfair Display', sans-serif ;
+    /*There are 3 ways to get colour */
+    background-color: pink;
+    /*Hex colour code*/
+    background-color: #938929;
+    /*RGB*/
+    background-color: rgb(200, 120, 190);
+    /*It is only ☝️ that will work*/
+    color:rgb(68, 38, 64)
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-size: 10em;
+    font-size: 3rem;
+    color:rgb(54, 30, 77)
+    
+}

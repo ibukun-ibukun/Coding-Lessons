@@ -1,0 +1,48 @@
+body {
+    background-color: pink;
+    color:  rgb(132, 55, 68);
+    font-family: Pacifico, sans-serif;
+    font-size: 25px;
+}
+
+.hero {
+    color:rgb(46, 17, 22);
+    background-color: beige;
+    border: 15px, double, rgb(243, 140, 120);
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    padding: 0;
+    margin: 0;
+}
+
+.tagline {
+    font-style: italic;   
+}
+
+.section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+img {
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    border: 15px, solid, rgb(122, 64, 130);
+}
+
+.footer {
+    background-color: rgb(250, 215, 246);
+    color: rgb(59, 30, 63);
+    text-align: center;
+    padding: 10px 2px;
+}
+
+h2 {
+    color:rgb(59, 30, 63)
+}

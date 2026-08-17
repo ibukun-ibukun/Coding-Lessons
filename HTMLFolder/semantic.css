@@ -1,0 +1,46 @@
+
+
+h1 {
+
+    display: inline;
+}
+
+p {
+
+    display: block;
+}
+
+a {
+
+    display: block;
+}
+
+span {
+    color: rgb(128, 0, 32);
+    font-weight: 900;
+    font-size: large;
+}
+
+.cards-container {
+    display:flex;
+    border: 1px solid blue;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+nav {
+display: flex;
+gap: 20px;
+padding: 16px 24px;
+background-color: #1a1a2e;
+justify-content: center;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+
+
