@@ -1,0 +1,7 @@
+.highlighted {
+    background-color: #d1bdd2;
+    border: 2px solid black;
+    font-weight: bold;
+    color: black;
+    margin: 15px;
+}
