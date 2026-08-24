@@ -45,3 +45,8 @@ addItemtoCart("Doll", "56000")
 addItemtoCart("Blocks", "45000")
 
 h1.remove()
+
+function removeCard(btn){
+    const card = btn.parentElement;
+    card.remove()
+}
