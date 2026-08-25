@@ -50,3 +50,5 @@ function removeCard(btn){
     const card = btn.parentElement;
     card.remove()
 }
+
+btn.addEventListener("click", ()=> removeCard(btn))

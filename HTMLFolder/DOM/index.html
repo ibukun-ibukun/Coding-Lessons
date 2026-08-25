@@ -30,10 +30,32 @@
     <ul id="card-list"></ul>
     <div class="product-card">
         <p>Blender</p>
-        <button onclick="removeCard(this)">Remove</button>
+        <!--<button onclick="removeCard(this)">Remove</button>
+        -->
+        
+        <button id="btn">Remove</button>
     </div>
-    
 
-    <script src="script.js"></script>
+    <select name="product" id="category-filter">
+        <option value="all">All</option>
+        <option value="donkeys">donkeys</option>
+        <option value="toy car">Toy car</option>
+        <option value="blocks">Blocks</option>
+    </select>
+
+    <form action="">
+        <label for="firstname">First Name</label>
+        <input type="text" name="first" id="">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+
+        <button type="submit">Add to Cart</button>
+    </form>
+
+    <input type="text" id="search-box" placeholder="Search for product">
+    
+    <script   src="events.js"></script>
+    
 </body>
 </html>
