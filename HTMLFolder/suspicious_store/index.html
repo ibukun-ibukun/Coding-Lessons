@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Slightly Suspicious Store</title>
+</head>
+<body>
+    <header>
+        <h1>The Slightly Suspicious Store</h1>
+        <p>...Everything is sus</p>
+    </header>
+
+    <section>
+        
+        <label for="text">Search:</label>
+        <input type="text" name="search" id="search">
+
+        <form action="">
+            <select name="products" id="category-filter">
+                <option value="all">All</option>
+                <option value="food">Food</option>
+                <option value="animals">Animals</option>
+                <option value="weird-stuff">Weird Stuff</option>
+                <option value="clothing">Clothing</option>
+            </select>
+        </form>
+
+        <article class="card">
+            <img src="https://images.unsplash.com/photo-1634693654243-a4f03785cba4?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <h2 class="name">Potion of Infinite Energy</h2>
+            <h3>Food</h3>
+            <p class="price">6700 rupees</p>
+            <button  >Add to cart</button>
+        </article>
+
+        <article class="card">
+            <img src="https://media.istockphoto.com/id/1460443337/photo/one-sock-with-different-lines-isolated-on-white-background-colorful-sock-son-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=-Q9aP30n_CBJGQ_9q-VWxQfKm0byZ-AGPGKky96XVqI=" alt="">
+            <h2 class="name">An Extremely Expensive Sock</h2>
+            <h3>Clothing</h3>
+            <p class="price">5440000 rupees</p>
+            <button  >Add to cart</button>
+        </article>
+
+        <article class="card">
+            <img src="https://plus.unsplash.com/premium_photo-1687288639271-96f5772138f2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZnJvZ3xlbnwwfHwwfHx8MA%3D%3D" alt="">
+            <h2 class="name">Emergency Frog</h2>
+           <h3>animals</h3>
+            <p  class="price">1200 rupees</p>
+            <button  >Add to cart</button>
+        </article>
+
+        <article class="card">
+            <img src="https://images.unsplash.com/photo-1537948756265-406a522f1a45?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2FuZGxlfGVufDB8fDB8fHww" alt="">
+            <h2 class="name">Empty Candle</p>
+            <h3>Weird Stuff</h3>
+            <p class="price">4500 rupees</p>
+            <button  >Add to cart</button>
+        </article>
+
+        <article class="card">
+            <img src="https://images.unsplash.com/photo-1531180488878-b785d2ce8f71?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cm9ja3xlbnwwfHwwfHx8MA%3D%3D" alt="">
+            <h2 class="name">Premium Rock™</h2>
+            <h3>Weird Stuff</h3>
+            <p class="price">3600 rupees</p>
+            <button  >Add to cart</button>
+        </article>
+
+        <article class="card">
+            <img src="https://images.unsplash.com/photo-1575427001153-09db5e6ace85?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8anVpY2UlMjBib3h8ZW58MHx8MHx8fDA%3D" alt="">
+            <h2 class="name">Juice that may or may not be Juice</h2>
+            <h3>Food</h3>
+            <p class="price">9200 rupees</p>
+            <button  >Add to cart</button>
+        </article>
+
+        <div id="cart"></div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
